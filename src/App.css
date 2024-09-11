@@ -1,42 +1,82 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333333;
+  color: #ffffff;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-card {
+  border: none; /* White border */
+  border-radius: 8px;
+  padding: 16px;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 100%;
+  background-color: #555555;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.profile-frame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 30px;
 }
 
-.card {
-  padding: 2em;
+.profile-picture {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 16px;
 }
 
-.read-the-docs {
-  color: #888;
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff; /* White text */
+}
+
+.profile-title h2 {
+  margin: 0 0 10px;
+}
+
+.profile-title a {
+  color: #cccccc; /* Light gray links */
+  text-decoration: none;
+}
+
+.profile-title h2:hover {
+  text-decoration: dotted underline;
+}
+
+.social-icons {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px; /* Adjust the size as needed */
+  margin: 10px; /* Add some spacing between icons */
+  display: inline-block;
+  filter: invert(100%);
+}
+
+.social-icons:hover {
+  filter: invert(20%);
+}
+
+.profile-details {
+  align-items: center;
+  margin: 30px;
+}
+
+.profile-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.profile-details ul {
+  list-style-type: square;
 }
