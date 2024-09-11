@@ -9,7 +9,7 @@
 }
 
 .profile-card {
-  border: none; /* White border */
+  border: none;
   border-radius: 8px;
   padding: 16px;
   width: 90%;
@@ -38,7 +38,7 @@
 .profile-title {
   display: flex;
   flex-direction: column;
-  color: #ffffff; /* White text */
+  color: #ffffff;
 }
 
 .profile-title h2 {
@@ -46,7 +46,7 @@
 }
 
 .profile-title a {
-  color: #cccccc; /* Light gray links */
+  color: #cccccc;
   text-decoration: none;
 }
 
@@ -55,9 +55,9 @@
 }
 
 .social-icons {
-  width: 30px; /* Adjust the size as needed */
-  height: 30px; /* Adjust the size as needed */
-  margin: 10px; /* Add some spacing between icons */
+  width: 30px;
+  height: 30px;
+  margin: 10px;
   display: inline-block;
   filter: invert(100%);
 }
@@ -68,7 +68,8 @@
 
 .profile-details {
   align-items: center;
-  margin: 30px;
+  margin: 5px;
+  margin-bottom: 30px;
 }
 
 .profile-icons {

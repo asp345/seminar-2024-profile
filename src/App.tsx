@@ -1,7 +1,5 @@
 import './App.css';
 
-// import { useState } from 'react';
-
 function App() {
   const profileInfo = {
     name: '임찬영',
