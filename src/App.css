@@ -51,7 +51,7 @@
 }
 
 .profile-title h2:hover {
-  text-decoration:dotted underline;
+  text-decoration: dotted underline;
 }
 
 .social-icons {
@@ -78,5 +78,5 @@
 }
 
 .profile-details ul {
-  list-style-type:square;
+  list-style-type: square;
 }
